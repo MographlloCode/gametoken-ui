@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 GameToken UI - Gaming Social Platform  
 
-## Getting Started
+## 🌟 Overview  
+GameToken UI is an innovative social platform designed specifically for the gaming community, blending social networking features with specialized tools for indie and mid-sized game developers. Our goal is to create a dynamic space where creators and players can connect, share, and discover new games.  
 
-First, run the development server:
+## 🖥️ Core Screens  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 👤 Profile Pages  
+- **Studio Profile**: Dedicated space for developers to showcase games, updates, and engage with the community.  
+- **User Profile**: Personal hub for players to share achievements, opinions, and follow favorite content.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 💬 Community & Forum  
+- **Community Feed**: Main timeline with posts from followed users and studios.  
+- **Create a Post**: Interface for sharing text and multimedia content.  
+- **Post View**: Dedicated page for discussions on individual posts.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔍 Discovery & Navigation  
+- **Game Page**: Dedicated pages for specific games.  
+- **Contests**: Space for competitions and challenges.  
+- **Achievements**: Badges and progression system.  
+- **Explore**: Content discovery tool for games and creators.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔑 Access Flow  
+- **Home**: Personalized dashboard with relevant content.  
+- **Register/Login**: User authentication flow.  
+- **Landing Page**: Welcome page for new visitors.  
 
-## Learn More
+## 🎯 Platform Goals  
+- Build an engaged community around games and game development.  
+- Provide effective tools for indie game promotion.  
+- Facilitate discovery of new talent and promising games.  
+- Encourage meaningful interactions between game owners and players.  
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technologies  
+### Frontend  
+- **TypeScript**  
+- **Next.js** (App Router)  
+- **React**  
+- **Tailwind CSS** (or **Styled Components** – TBD)  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Roadmap  
+*(To be detailed in future updates.)*  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License  
+Closed contributions for now.  
