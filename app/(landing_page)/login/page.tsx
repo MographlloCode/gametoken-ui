@@ -1,4 +1,4 @@
-import DonationWrapper from "@/components/landing-page/parts/DonationWrapper";
+import DonationWrapper from "@/components/general/parts/DonationWrapper";
 import LPCopyright from "@/components/landing-page/parts/LPCopyright";
 import LPFooter from "@/components/landing-page/parts/LPFooter";
 import LPHeader from "@/components/landing-page/parts/LPHeader";

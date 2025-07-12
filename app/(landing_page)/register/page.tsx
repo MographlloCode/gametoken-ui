@@ -1,10 +1,10 @@
-import DonationWrapper from "@/components/landing-page/parts/DonationWrapper";
+import DonationWrapper from "@/components/general/parts/DonationWrapper";
 import LPCopyright from "@/components/landing-page/parts/LPCopyright";
 import LPFooter from "@/components/landing-page/parts/LPFooter";
 import LPHeader from "@/components/landing-page/parts/LPHeader";
 import Image from "next/image";
 
-import Placeholder from "../../../../public/placeholder_peach.png"
+import Placeholder from "../../../public/placeholder_peach.png"
 import RegisterCredentialsForm from "@/components/landing-page/RegisterCredentialsForm";
 import ExternalRegisterContainer from "@/components/landing-page/ExternalRegisterContainer";
 

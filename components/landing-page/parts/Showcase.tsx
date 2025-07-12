@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Placeholder from "../../public/placeholder_peach.png"
+import Placeholder from "../../../public/placeholder_peach.png"
 
 export default function Showcase() {
     return <section className="flex flex-col">

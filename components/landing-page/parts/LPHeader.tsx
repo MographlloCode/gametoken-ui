@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import GameTokenLogo from "../../public/game_token_hor_logo.svg"
+import GameTokenLogo from "../../../public/game_token_hor_logo.svg"
 
 export default function LPHeader() {
     return <header className="flex justify-between border-b border-b-stone-800">

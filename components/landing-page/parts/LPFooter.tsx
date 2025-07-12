@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GameTokenLogo from "../../public/game_token_hor_logo.svg"
+import GameTokenLogo from "../../../public/game_token_hor_logo.svg"
 import Image from "next/image";
 import { PiLinkedinLogoFill, PiXLogoFill, PiDiscordLogoFill, PiHeartFill } from "react-icons/pi";
 export default function LPFooter() {

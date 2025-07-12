@@ -1,6 +1,6 @@
 import CompanyList from "@/components/landing-page/parts/CompanyList";
 import CTASection from "@/components/landing-page/parts/CTASection";
-import DonationWrapper from "@/components/landing-page/parts/DonationWrapper";
+import DonationWrapper from "@/components/general/parts/DonationWrapper";
 import HeroSection from "@/components/landing-page/parts/HeroSection";
 import LPCopyright from "@/components/landing-page/parts/LPCopyright";
 import LPFooter from "@/components/landing-page/parts/LPFooter";

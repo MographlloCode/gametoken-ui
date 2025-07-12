@@ -1,4 +1,3 @@
-import Link from "next/link";
 import DonationBar from "../DonationBar";
 
 export default function DonationWrapper() {

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import RaiseYourGames from "../../public/raise_your_games.svg"
-import LineScratch from "../../public/scratch_line.svg"
+import RaiseYourGames from "../../../public/raise_your_games.svg"
+import LineScratch from "../../../public/scratch_line.svg"
 import Link from "next/link";
 import { PiArrowRight } from "react-icons/pi";
 
