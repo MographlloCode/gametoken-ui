@@ -1,1 +1,3 @@
-export default function CategoryItem() {}
+export default function CategoryItem() {
+    return <div></div>
+}
