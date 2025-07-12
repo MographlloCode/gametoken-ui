@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GameCard from "../GameCard";
+import GameCard from "../../general/GameCard";
 import { PiArrowRight, PiArrowLeft } from "react-icons/pi";
 
 
@@ -24,15 +24,33 @@ export default function TopGames() {
             </div>
         </header>
         <main className="flex overflow-x-auto">
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
-            <GameCard backgroundUrl="9kings_cover.jpg"/>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
+            <Link href={"/"} className="p-8 border border-r-0 border-stone-800 hover:bg-stone-950 transition-all ease-in-out duration-200">
+                <GameCard backgroundUrl="9kings_cover.jpg"/>
+            </Link>
         </main>
     </section>
 }
