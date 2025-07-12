@@ -4,13 +4,13 @@ import LPFooter from "@/components/landing-page/parts/LPFooter";
 import LPHeader from "@/components/landing-page/parts/LPHeader";
 import Image from "next/image";
 
-import Placeholder from "../../../../public/placeholder_peach.png"
+import Placeholder from "../../../public/placeholder_peach.png"
 import ExternalLoginContainer from "@/components/landing-page/ExternalLoginContainer";
 import LoginCredentialForms from "@/components/landing-page/LoginCredentialsForm";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <>
       <LPHeader />
       <DonationWrapper />
       <main className="flex grow w-full">
@@ -28,6 +28,6 @@ export default function Home() {
       </main>
       <LPFooter />
       <LPCopyright/>
-    </div>
+    </>
   );
 }

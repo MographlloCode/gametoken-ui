@@ -19,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-[#111111] ${space_grotesk.className} h-screen w-screen`}
+        className={`antialiased bg-[#111111] ${space_grotesk.className} h-screen w-screen overflow-hidden`}
       >
-        {children}
+        <div className="flex flex-col overflow-y-auto overflow-x-hidden h-full w-full">
+          {children}
+        </div>
       </body>
     </html>
   );

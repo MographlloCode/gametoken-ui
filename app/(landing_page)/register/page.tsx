@@ -10,7 +10,7 @@ import ExternalRegisterContainer from "@/components/landing-page/ExternalRegiste
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <>
       <LPHeader />
       <DonationWrapper />
       <main className="flex grow w-full">
@@ -28,6 +28,6 @@ export default function Home() {
       </main>
       <LPFooter />
       <LPCopyright/>
-    </div>
+    </>
   );
 }
