@@ -26,8 +26,8 @@ export default function AppLayout({
         <Header />
         <main className="flex flex-col p-8 w-full h-full relative">
           <Sidebar />
+          {children}
         </main>
-        {children}
       </body>
     </html>
   );
