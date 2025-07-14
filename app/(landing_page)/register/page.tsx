@@ -22,7 +22,7 @@ export default function Home() {
           <ExternalRegisterContainer />
           <RegisterCredentialsForm />
         </section>
-        <section className="hidden lg:block w-full h-full overflow-hidden border-l border-stone-800 max-h-[750px]">
+        <section className="hidden lg:block w-full overflow-hidden border-l border-stone-800 max-h-[750px]">
           <Image src={Placeholder} alt="" className="w-full object-cover"/>
         </section>
       </main>
