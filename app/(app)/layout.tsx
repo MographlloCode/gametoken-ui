@@ -19,8 +19,7 @@ export default function AppLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
+      <div
         className={`flex flex-col antialiased bg-[#111111] ${space_grotesk.className} h-screen w-screen overflow-hidden box-border`}
       >
         <Header />
@@ -28,7 +27,6 @@ export default function AppLayout({
           <Sidebar />
           {children}
         </main>
-      </body>
-    </html>
+      </div>
   );
 }
