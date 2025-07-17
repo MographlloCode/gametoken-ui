@@ -8,7 +8,7 @@ export default function GameCard({ backgroundUrl }: GameCardProps) {
   const backgroundStyle = backgroundUrl ? { backgroundImage: `url('/${backgroundUrl}')` } : {};
 
   return (
-    <article className="flex flex-col gap-3 w-52">
+    <article className="flex flex-col gap-3 min-w-52">
         <div
             className="flex flex-col justify-end bg-cover bg-center w-full h-64 rounded-xl overflow-hidden p-2 group"
             style={backgroundStyle}

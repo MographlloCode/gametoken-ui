@@ -6,7 +6,7 @@ import CommunityItem from "./CommunityItem";
 import CategoryItem from "./CategoryItem";
 
 export default function Sidebar() {
-    return <div className="flex flex-col gap-4 absolute left-0 top-0 h-full w-72 bg-[#111] backdrop-blur-md
+    return <div className="hidden flex-col gap-4 absolute left-0 top-0 h-full w-72 bg-[#111] backdrop-blur-md
      border-r border-stone-800 z-50 shadow-xl py-2 px-4 overflow-x-hidden overflow-y-auto">
         <div className="flex flex-col w-full gap-1">
             <MenuItem menuText="Home" iconName="home" />

@@ -3,17 +3,20 @@
 /* width */
 ::-webkit-scrollbar {
     width: 8px;
+    height: 6px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
     background: #242424;
+    border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #1d1d1d;
     border-radius: 5px;
+
 }
 
 /* Handle on hover */

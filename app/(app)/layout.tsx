@@ -23,7 +23,7 @@ export default function AppLayout({
         className={`flex flex-col antialiased bg-[#111111] ${space_grotesk.className} h-screen w-screen overflow-hidden box-border`}
       >
         <Header />
-        <main className="flex flex-col p-8 w-full h-full relative">
+        <main className="flex flex-col w-full h-full relative">
           <Sidebar />
           {children}
         </main>
